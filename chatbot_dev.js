@@ -40,7 +40,7 @@ try {
   }
   if (mode === 'dark') {
     colorScheme = localStorage.getItem('${a}-dark') || '${n}';
-  }
+  } 
   if (colorScheme) {
     ${s}.setAttribute('${i}', colorScheme);
   }
